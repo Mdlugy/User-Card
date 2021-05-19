@@ -5,7 +5,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-container{ 
+.container{ 
     border: 5px solid rgb(180, 177, 177);
     height:80vh;
     background-color: rgb(60, 195, 219);
@@ -14,6 +14,7 @@ container{
     align-items: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
+    position:relative;
     padding:0;
 
 }
@@ -63,6 +64,6 @@ width: 30vw;}
 .user{
     height: 15vh;
     position: absolute;
-    left: 13vw;
-    top: 23vh;
+    left: 10px;
+    top: 55px;
 }
